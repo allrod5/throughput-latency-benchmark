@@ -4,6 +4,7 @@ from aiohttp import web
 
 
 async def handle(request):
+    await asyncio.sleep(0.01)
     return web.Response(text="OK")
 
 app = web.Application()

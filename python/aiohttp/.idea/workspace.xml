@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcc87fed-1c7f-4c72-a611-f662dd2cc1e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../dependency/.idea/dependency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../dependency/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java/spring/core/src/main/java/br/com/quintoandar/springbootapitemplate/core/sample/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../java/spring/core/src/main/java/br/com/quintoandar/springbootapitemplate/core/sample/ClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../producer/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../producer/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../golang/iris/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../golang/iris/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dependency/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../dependency/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../dependency/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../dependency/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/spring/logs/spring-boot-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/spring/logs/spring-boot-logger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node/express/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../node/express/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../producer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../producer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../producer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../producer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/aiohttp$main.coverage" NAME="main Coverage Results" MODIFIED="1551049093944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aiohttp$main.coverage" NAME="main Coverage Results" MODIFIED="1551068706539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
@@ -38,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="688">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -168,23 +164,22 @@
       <option name="presentableId" value="Default" />
       <updated>1551042649723</updated>
       <workItem from="1551042650848" duration="4069000" />
-      <workItem from="1551048318820" duration="1932000" />
+      <workItem from="1551048318820" duration="6392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6001000" />
+    <option name="totallyTimeSpent" value="10461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="3706" height="2125" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25347415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983425" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32983425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -212,7 +207,7 @@
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>

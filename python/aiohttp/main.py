@@ -9,14 +9,15 @@ async def fetch(session, url):
         return await response.text()
 
 
-async def request_dependency():
-    async with aiohttp.ClientSession() as session:
-        return await fetch(session, 'http://localhost:2000')
+async def request_dependency(session):
+    return await fetch(session, 'http://localhost:2000')
 
 
 async def handle(request):
-    coroutines = [request_dependency() for _ in range(100)]
+    session = aiohttp.ClientSession(connector=aiohttp.TCPConnector(limit=2))
+    coroutines = [request_dependency(session) for _ in range(100)]
     responses = await asyncio.gather(*coroutines)
+    await session.close()
     return web.Response(text=",".join(responses))
 
 app = web.Application()

@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac54e41-991f-4d90-b953-801143d2e588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dependency/.idea/dependency.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dependency/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/spring/core/src/main/java/br/com/quintoandar/springbootapitemplate/core/sample/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java/spring/core/src/main/java/br/com/quintoandar/springbootapitemplate/core/sample/ClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/aiohttp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/aiohttp/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../python/aiohttp/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../golang/iris/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../golang/iris/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dependency/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../dependency/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/spring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/spring/logs/spring-boot-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/../java/spring/logs/spring-boot-logger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node/express/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../node/express/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/aiohttp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/aiohttp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/aiohttp/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/aiohttp/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +21,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/producer$main.coverage" NAME="main Coverage Results" MODIFIED="1551056867712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/producer$main.coverage" NAME="main Coverage Results" MODIFIED="1551073137426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="867">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.pyenv/versions/producer/lib/python3.7/site-packages/aiohttp/streams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="590" selection-start-line="590" selection-end-line="590" />
             </state>
           </provider>
         </entry>
@@ -152,12 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551039968264</updated>
       <workItem from="1551039970121" duration="6863000" />
-      <workItem from="1551048318098" duration="2896000" />
+      <workItem from="1551048318098" duration="15117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9759000" />
+    <option name="totallyTimeSpent" value="21980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="3706" height="2125" extended-state="6" />
@@ -168,7 +173,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928178" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -194,14 +199,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
+          <line>26</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>response == expected_response</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>assert response == expected_response</expression-string>
         <language-id>Python</language-id>
@@ -210,20 +220,27 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/producer/lib/python3.7/site-packages/aiohttp/streams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="590" selection-start-line="590" selection-end-line="590" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
