@@ -1,0 +1,22 @@
+check {
+    dependsOn jacocoTestCoverageVerification
+}
+
+test {
+    failFast = true
+    finalizedBy jacocoTestReport
+}
+
+task unitTest(type: Test) {
+    include '**/*Test.*'
+    exclude '**/integrationtests/*Test.*'
+    exclude '**/apitests/*Test.*'
+}
+
+task integrationTest(type: Test) {
+    include '**/integrationtests/*Test.*'
+}
+
+task apiTest(type: Test) {
+    include '**/apitests/*Test.*'
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.sentry:sentry-logback:1.7.20">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.sentry/sentry-logback/1.7.20/4342adff68fb24f1c0ad0ae869cc35e8b440042e/sentry-logback-1.7.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.sentry/sentry-logback/1.7.20/9f1addd925af2df52d7362b35e53d9617f84e30f/sentry-logback-1.7.20-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

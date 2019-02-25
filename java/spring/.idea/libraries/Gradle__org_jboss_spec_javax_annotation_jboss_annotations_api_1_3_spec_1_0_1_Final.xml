@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.spec.javax.annotation:jboss-annotations-api_1.3_spec:1.0.1.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.3_spec/1.0.1.Final/868cb0672f760f98bd5ec508f531b90fc121c9d5/jboss-annotations-api_1.3_spec-1.0.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.annotation/jboss-annotations-api_1.3_spec/1.0.1.Final/ea7d86f247380b4b130ef7b0209f056778abcd03/jboss-annotations-api_1.3_spec-1.0.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

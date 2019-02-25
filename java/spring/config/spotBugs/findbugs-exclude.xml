@@ -1,0 +1,23 @@
+<FindBugsFilter>
+    <Match>
+        <Class name="~.*\.*Payload.*"/>
+        <And>
+            <Bug pattern="UWF_UNWRITTEN_FIELD"/>
+        </And>
+    </Match>
+    <Match>
+        <Class name="~.*\.*Test.*"/>
+        <Or>
+            <Bug pattern="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR"/>
+            <Bug pattern="REC_CATCH_EXCEPTION"/>
+            <Bug pattern="NM_CONFUSING"/>
+            <Bug pattern="NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE"/>
+        </Or>
+    </Match>
+    <Match>
+        <Or>
+            <Bug pattern="REC_CATCH_EXCEPTION"/>
+            <Bug pattern="SE_NO_SERIALVERSIONID"/>
+        </Or>
+    </Match>
+</FindBugsFilter>

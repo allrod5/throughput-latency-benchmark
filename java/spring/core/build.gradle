@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+dependencies {
+    compile group: 'org.jboss.resteasy', name: 'resteasy-client'
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs', version: '1.0'
+    compile group: 'org.jboss.resteasy', name: 'resteasy-client'
+    compile group: 'org.jboss.resteasy', name: 'resteasy-jaxrs', version: '3.6.3.Final'
+    compile group: 'org.jboss.resteasy', name: 'resteasy-client', version: '3.6.3.Final'
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/br.com.quintoandar.api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/br.com.quintoandar.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/br.com.quintoandar.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/br.com.quintoandar.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/br.com.quintoandar.api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/br.com.quintoandar.api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/br.com.quintoandar.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/br.com.quintoandar.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/br.com.quintoandar.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/br.com.quintoandar.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/br.com.quintoandar.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/br.com.quintoandar.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/br.com.quintoandar.spring-boot-api-template.iml" filepath="$PROJECT_DIR$/.idea/modules/br.com.quintoandar.spring-boot-api-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/br.com.quintoandar.spring-boot-api-template.main.iml" filepath="$PROJECT_DIR$/.idea/modules/br.com.quintoandar.spring-boot-api-template.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/br.com.quintoandar.spring-boot-api-template.test.iml" filepath="$PROJECT_DIR$/.idea/modules/br.com.quintoandar.spring-boot-api-template.test.iml" />
+    </modules>
+  </component>
+</project>

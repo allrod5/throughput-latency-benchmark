@@ -1,0 +1,3 @@
+rootProject.name = 'spring-boot-api-template'
+include 'core'
+include 'api'

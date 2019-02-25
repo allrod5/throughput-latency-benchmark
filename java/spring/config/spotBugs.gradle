@@ -1,0 +1,20 @@
+spotbugs {
+    toolVersion = '3.1.11'
+    effort = "max"
+    reportLevel = "low"
+    excludeFilter = file(rootProject.projectDir.absolutePath + '/config/spotBugs/findbugs-exclude.xml')
+}
+spotbugsMain {
+    source = 'src/main/java'
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}
+spotbugsTest {
+    source = 'src/test/java'
+    reports {
+        xml.enabled = false
+        html.enabled = true
+    }
+}

@@ -1,0 +1,32 @@
+jacoco {
+    toolVersion = "0.8.3"
+}
+
+def excludeFiles = ['**/ApiApplication.class',
+                    '**/PerformanceMonitorConfiguration.class',
+                    '**/PerformanceMonitorInterceptorToInfo.class',
+                    '**/ExceptionHandlerConfiguration.class',]
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                minimum = 0.95
+            }
+        }
+    }
+
+    afterEvaluate {
+        classDirectories.from = files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: excludeFiles)
+        })
+    }
+}
+
+jacocoTestReport {
+    afterEvaluate {
+        classDirectories.from = files(classDirectories.files.collect {
+            fileTree(dir: it, exclude: excludeFiles)
+        })
+    }
+}
